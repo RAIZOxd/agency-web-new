@@ -48,7 +48,7 @@ const HeroSection = () => {
             <div className="bg-[#5AC4FF] h-24 w-1"></div>
           </div>
           <h1 className="text-[150px] px-10 font-[geistClashDisplay] font-bold leading-[140px] text-[#2C313F]">
-            AGENCY
+            AGENCY DESIGN
           </h1>
         </div>
 
