@@ -67,7 +67,7 @@ const HeroSection = () => {
           </p>
         </div>
 
-        <div className="relative flex justify-center items-center h-[756px] w-[1430px] my-16 bg-blue-100">
+        <div className="relative flex justify-center items-center h-[756px] w-[1430px] mt-16 mb-1 bg-blue-100">
           <Image
             src="Rectangle.svg"
             alt="Header Image"
