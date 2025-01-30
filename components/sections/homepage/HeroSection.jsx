@@ -36,7 +36,7 @@ const HeroSection = () => {
         {/* Highlighted Section */}
         <div className="mt-8 flex items-center">
           <div className="bg-[#5AC4FF] h-24 px-6 rounded-sm text-sm font-medium mr-4 w-[450px]">
-            <h1 className="text-[#2C313F] px-10 py-5 jakarta-font text-[22px] font-bold leading-[34px] text-left decoration-skip-ink">
+            <h1 className="text-[#2C313F] px-10 py-4 jakarta-font text-[22px] font-bold leading-[34px] text-left decoration-skip-ink">
               A CREATIVE DESIGN AGENCY <br /> FROM SAN FRANCISCO
             </h1>
           </div>
