@@ -54,7 +54,7 @@ const HeroSection = () => {
 
         {/* Bottom Section */}
         <div className="flex justify-between items-center mt-16 border-t border-[#2C313F] pt-4 w-[1430px]">
-          <div className="font-bold text-[#2C313F] jakarta-font text-[23px] leading-8">
+          <div className="font-bold text-[#2C313F] jakarta-font text-[23px] leading-[33px]">
             DESIGN VISUALLY.
             <br />
             CREATE EFFICIENTLY.
