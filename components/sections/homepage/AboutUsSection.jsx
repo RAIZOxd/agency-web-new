@@ -2,12 +2,12 @@
 
 export default function AboutUsSection() {
     return (
-      <section className="bg-[#EBECF0] py-2 px-6">
+      <section className="bg-[#EBECF0] pt-2 pb-20 px-6">
         <div className="w-[1366px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left Side */}
           <div>
             <hr className="w-28 border-[#2C313F] mb-6" />
-            <h2 className="font-bold text-[#2C313F] text-[20px] leading-8">WE'RE A CREATIVE AND <br/>TALENTED TEAM OF DESIGNERS</h2>
+            <h2 className="font-bold text-[#2C313F] text-[20px] leading-8 jakarta-font">WE'RE A CREATIVE AND <br/>TALENTED TEAM OF DESIGNERS</h2>
             <div className="flex space-x-1 mt-1">
               {[...Array(5)].map((_, i) => (
                 <span key={i} className="text-5xl text-[#171717]">★</span>
