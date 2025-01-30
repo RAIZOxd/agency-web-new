@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 const HeroSection = () => {
   return (
     <section className="bg-[#EBECF0] py-10 px-6">
@@ -65,6 +65,16 @@ const HeroSection = () => {
             tincidunt feugiat viverra. Commodo etiam vestibulum quam tristique
             non venenatis sed.
           </p>
+        </div>
+
+        <div className="relative flex justify-center items-center h-[756px] w-[1430px] my-16 bg-blue-100">
+          <Image
+            src="Rectangle.svg"
+            alt="Header Image"
+            layout="fill"
+            objectFit="cover"
+            className="absolute"
+          />
         </div>
       </div>
     </section>
