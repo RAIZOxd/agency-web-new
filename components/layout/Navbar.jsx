@@ -5,7 +5,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center border-b border-[#2C313F] pb-2 w-[1474px]">
         {/* Left Section */}
         <p
-          className="text-[24px] leading-[30px] font-[450] text-[#2C313F] tracking-[-0.02em] font-[geistStd]"
+          className="text-[24px] leading-[30px] font-[450] text-[#2C313F] tracking-[-0.02em] std-font"
           style={{
             width: "83px",
             height: "30px",
@@ -21,7 +21,7 @@ const Navbar = () => {
         {/* Center Section */}
         <div className="flex flex-col items-center">
           <p
-            className="text-xs tracking-widest text-[#2C313F]"
+            className="text-xs tracking-widest text-[#2C313F] std-font"
             style={{
               width: "64px",
               height: "30px",
@@ -29,7 +29,6 @@ const Navbar = () => {
               left: "767px",
               gap: "0px",
               opacity: "0px",
-              fontFamily: "geistStd",
               fontSize: "20px",
               fontWeight: 500,
               lineHeight: "30px",
@@ -45,7 +44,7 @@ const Navbar = () => {
 
 
           <p
-            className="text-[60px] font-[700] leading-[70px] text-center text-[#2C313F]"
+            className="text-[60px] font-[700] leading-[70px] text-center clash-display-font text-[#2C313F]"
             style={{
               width: "68px",
               height: "70px",
@@ -53,7 +52,6 @@ const Navbar = () => {
               left: "766px",
               gap: "0px",
               opacity: "0px",
-              fontFamily: "geistClashDisplay",
               textUnderlinePosition: "from-font",
               textDecorationSkipInk: "none",
             }}

@@ -1,14 +1,51 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Plus_Jakarta_Sans, Poppins } from 'next/font/google';
+import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+// Variable font (multiple weights)
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
+  variable: '--font-poppins', // Add variable name
 });
 
-const geistMono = Geist_Mono({
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  weight: '700',
+  variable: '--font-plus-jakarta-sans',
+  display: 'swap',
+});
+
+// Variable fonts using correct configuration
+const geistSans = localFont({
+  src: "./fonts/GeistVF.woff",
+  variable: "--font-geist-sans",
+  display: 'swap',
+});
+
+const geistMono = localFont({
+  src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
-  subsets: ["latin"],
+  display: 'swap',
+});
+
+// Static fonts with proper weight declarations
+const geistStd = localFont({
+  src: "./fonts/CircularStd-Book.woff",
+  variable: "--font-geist-std",
+  weight: '400', // Assuming Book weight is 400
+});
+
+const geistClashDisplay = localFont({
+  src: "./fonts/ClashDisplay-Bold.woff",
+  variable: "--font-geist-clash-display",
+  weight: '700', // Bold weight
+});
+
+const geistMabryPro = localFont({
+  src: "./fonts/MabryPro-Light.woff",
+  variable: "--font-geist-mabry-pro",
+  weight: '300', // Light weight
 });
 
 export const metadata = {
@@ -19,9 +56,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`
+        ${plusJakartaSans.variable}
+        ${poppins.variable}
+        ${geistSans.variable}
+        ${geistMono.variable}
+        ${geistStd.variable}
+        ${geistClashDisplay.variable}
+        ${geistMabryPro.variable}
+        antialiased
+      `}>
         {children}
       </body>
     </html>

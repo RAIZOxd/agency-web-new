@@ -5,6 +5,13 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+    /* Define base font family using CSS variables */
+    --font-primary: var(--font-geist-sans), sans-serif;
+    --font-secondary: var(--font-poppins), sans-serif;
+    --font-mono: var(--font-geist-mono), monospace;
+    --font-display: var(--font-geist-clash-display), sans-serif;
+    --font-jakarta: var(--font-plus-jakarta-sans), sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,3 +26,30 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.clash-display-font {
+  font-family: var(--font-geist-clash-display);
+ 
+}
+
+code {
+  font-family: var(--font-mono);
+}
+
+.secondary-font {
+  font-family: var(--font-secondary);
+}
+
+.std-font {
+  font-family: var(--font-geist-std);
+}
+
+.mabry-pro-font {
+  font-family: var(--font-geist-mabry-pro);
+}
+
+.jakarta-font {
+  font-family: var(--font-plus-jakarta-sans);
+  
+}
+
