@@ -2,8 +2,8 @@ import { FaFacebookF, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#2C313F] text-[#EBECF0] py-20 h-[534px]">
-      <div className="container mx-auto px-6 lg:px-20 flex flex-wrap align-middle items-center justify-between">
+    <footer className="bg-[#2C313F] text-[#EBECF0] py-20 h-[560px]">
+      <div className="container mx-auto px-6 lg:px-10 flex flex-wrap align-middle items-center justify-between">
         {/* Logo, Social Icons, and Newsletter */}
         <div className="w-[210px] md:w-1/3">
           {/* Center Section */}
@@ -103,92 +103,100 @@ export default function Footer() {
         </div>
 
         {/* Right Section: Footer Links */}
-        <div className="w-full md:w-2/3 grid grid-cols-2 md:grid-cols-4 gap-10 p-10 mt-10">
+        <div className="w-full md:w-2/3 grid grid-cols-2 md:grid-cols-4 gap-10 p-10 mt-4">
           <div>
-            <h3 className="text-white font-semibold pb-4">Linkes</h3>
-            <ul className="mt-2 space-y-6">
+            <h3 className="text-white font-semibold pb-6 gilroy-font text-xl">
+              Linkes
+            </h3>
+            <ul className="mt-2 space-y-6 std-font font-[450px] text-xl opacity-60">
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Projects
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Blog
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Category
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-white font-semibold pb-4">Features</h3>
-            <ul className="mt-2 space-y-6">
+            <h3 className="text-white font-semibold pb-6 gilroy-font text-xl">
+              Features
+            </h3>
+            <ul className="mt-2 space-y-6 std-font font-[450px] text-xl opacity-60">
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Instructions
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Catelog
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Contact Us
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-white font-semibold pb-4">Company</h3>
-            <ul className="mt-2 space-y-6">
+            <h3 className="text-white font-semibold pb-6 gilroy-font text-xl">
+              Company
+            </h3>
+            <ul className="mt-2 space-y-6 std-font font-[450px] text-xl opacity-60">
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Privacy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Terms
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Security
                 </a>
               </li>
             </ul>
           </div>
           <div>
-            <h3 className="text-white font-semibold pb-4">Legal & Terms</h3>
-            <ul className="mt-2 space-y-6">
+            <h3 className="text-white font-semibold pb-6 gilroy-font text-xl">
+              Legal & Terms
+            </h3>
+            <ul className="mt-2 space-y-6 std-font font-[450px] text-xl opacity-60">
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Privacy
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Terms
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="#" className="hover:text-white opacity-100">
                   Security
                 </a>
               </li>
@@ -198,8 +206,10 @@ export default function Footer() {
       </div>
 
       {/* Copyright */}
-      <div className="text-center text-gray-500 text-sm mt-10">
-        © Copyright 2022 Fifty©. All rights reserved.
+      <div className="w-[1435px] mx-auto mt-16">
+        <div className="gilroy-font text-center text-[#6A7176] text-base font-medium mt-10 border-t border-white border-opacity-20 py-6">
+          © Copyright 2022 Fifty©. All rights reserved.
+        </div>
       </div>
     </footer>
   );
