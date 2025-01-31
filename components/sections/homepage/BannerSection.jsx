@@ -5,7 +5,7 @@ function BannerSection() {
   return (
     <div>
         
-        <div className="relative justify-center items-center h-[437px] w-full bg-blue-100">
+        <div className="relative justify-center items-center h-[550px] w-full bg-blue-100">
           <Image
             src="Cover_1.svg"
             alt="Cover Image"
