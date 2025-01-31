@@ -63,26 +63,26 @@ const Navbar = () => {
       </button>
 
       <div
-        className={`absolute right-0 mt-6 w-72 bg-white shadow-2xl rounded-2xl py-6 px-6 flex flex-col gap-5 transform transition-all duration-500 ease-in-out ${
+        className={`absolute right-0 mt-6 w-72 bg-[#EBECF0] shadow-2xl rounded-2xl py-6 px-6 flex flex-col gap-16 transform transition-all duration-500 ease-in-out ${
           isOpen ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-5 pointer-events-none"
         }`}
       >
-        <a href="#" className="flex items-center gap-3 text-[#2C313F] font-semibold text-lg hover:text-[#4A5568] transition-all duration-300">
+        <a href="#" className="flex items-center gap-3 text-[#2C313F] font-semibold text-lg hover:text-[#5AC4FF] transition-all duration-300">
           <FaHome /> Home
         </a>
-        <a href="#" className="flex items-center gap-3 text-[#2C313F] font-semibold text-lg hover:text-[#4A5568] transition-all duration-300">
+        <a href="#" className="flex items-center gap-3 text-[#2C313F] font-semibold text-lg hover:text-[#5AC4FF] transition-all duration-300">
           <FaInfoCircle /> About Us
         </a>
-        <a href="#" className="flex items-center gap-3 text-[#2C313F] font-semibold text-lg hover:text-[#4A5568] transition-all duration-300">
+        <a href="#" className="flex items-center gap-3 text-[#2C313F] font-semibold text-lg hover:text-[#5AC4FF] transition-all duration-300">
           <FaPhone /> Contact Us
         </a>
-        <a href="#" className="flex items-center gap-3 text-[#2C313F] font-semibold text-lg hover:text-[#4A5568] transition-all duration-300">
+        <a href="#" className="flex items-center gap-3 text-[#2C313F] font-semibold text-lg hover:text-[#5AC4FF] transition-all duration-300">
           <FaFolderOpen /> Category
         </a>
-        <a href="#" className="flex items-center gap-3 text-[#2C313F] font-semibold text-lg hover:text-[#4A5568] transition-all duration-300">
+        <a href="#" className="flex items-center gap-3 text-[#2C313F] font-semibold text-lg hover:text-[#5AC4FF] transition-all duration-300">
           <FaRocket /> Projects
         </a>
-        <a href="#" className="flex items-center gap-3 text-[#2C313F] font-semibold text-lg hover:text-[#4A5568] transition-all duration-300">
+        <a href="#" className="flex items-center gap-3 text-[#2C313F] font-semibold text-lg hover:text-[#5AC4FF] transition-all duration-300">
           <FaBlog /> Blog
         </a>
       </div>

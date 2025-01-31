@@ -1,3 +1,4 @@
+import BackToTop from "@/components/elements/BackToTop";
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
 import AboutUsSection from "@/components/sections/homepage/AboutUsSection";
@@ -14,6 +15,7 @@ export default function Home() {
       <WorkSection/>
       <BannerSection/>
       <Footer/>
+      <BackToTop/>
     </>
   );
 }
