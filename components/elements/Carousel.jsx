@@ -34,7 +34,7 @@ export default function Carousel() {
                 width={600}
                 height={400}
                 alt={slide.title}
-                className="rounded-xl object-cover transition-transform duration-500 group-hover:scale-105"
+                className="object-cover transition-transform duration-500 group-hover:scale-105"
                 priority
               />
               <p className="absolute bottom-2 space-x-10 text-sm text-white bg-black bg-opacity-50 px-2 py-1 rounded">

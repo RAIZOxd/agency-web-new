@@ -53,3 +53,11 @@ code {
   
 }
 
+@keyframes slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-slide-infinite {
+  animation: slide 30s linear infinite;
+}
