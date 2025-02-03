@@ -26,7 +26,7 @@ export default function WorkSection() {
           </div>
         </div>
 
-        <button className="mt-20 flex justify-between items-center bg-[#2C313F] text-white p-3 py-2 rounded-full hover:bg-gray-700 std-font w-[195px] uppercase">
+        <button className="mt-20 flex justify-between items-center bg-[#2C313F] text-white pr-2 pl-4 py-2 rounded-full hover:bg-gray-700 std-font w-[195px] uppercase">
           All Projects
           <span className="ml-2 bg-[#5AC4FF] text-[18px] text-[#2C313F] px-4 py-2 rounded-full">
             ↗

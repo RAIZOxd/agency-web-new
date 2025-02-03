@@ -11,7 +11,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const slides = [
   { id: 1, img: "/laptop-mockup.svg", title: "Creative Vision" },
   { id: 2, img: "/bag-mockup.svg", title: "X3 Branding & Website" },
-  { id: 3, img: "/bag-mockup.svg", title: "X3 Branding & Website" },
+  { id: 3, img: "/X3CreativeDesign_2.png", title: "X3 Branding & Website" },
 ];
 
 export default function Carousel() {

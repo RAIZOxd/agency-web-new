@@ -19,7 +19,7 @@ const HeroSection = () => {
             Commodo etiam lacus vestibulum qu tristique non venenatis sed.
           </p>
 
-          <button className="flex items-center bg-[#2C313F] text-white pr-3 pl-4 py-2 rounded-full hover:bg-gray-700 std-font">
+          <button className="flex items-center bg-[#2C313F] text-white pr-2 pl-4 py-2 rounded-full hover:bg-gray-700 std-font">
             LET'S TALK
             <span className="ml-2 bg-[#5AC4FF] text-[18px] text-[#2C313F] px-4 py-2 rounded-full">
               ↗
