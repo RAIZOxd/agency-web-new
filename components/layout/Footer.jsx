@@ -82,7 +82,7 @@ export default function Footer() {
               placeholder="Enter your email"
               className="px-4 py-2 rounded-full focus:outline-none gilroy-font text-black w-[300px]"
             />
-            <button className="bg-[#5AC4FF] p-3 rounded-full">
+            <button className="bg-[#5AC4FF] hover:bg-[#77cefd] p-3 rounded-full">
               <svg
                 width="28"
                 height="28"

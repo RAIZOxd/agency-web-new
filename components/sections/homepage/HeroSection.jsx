@@ -3,7 +3,7 @@ import Image from "next/image";
 const HeroSection = () => {
   return (
     <section className="bg-[#EBECF0] py-10 px-6">
-      <div className="container mx-auto w-[1366px]">
+      <div className="container mx-auto max-w-[1366px]">
         {/* Top Section */}
         <div className="text-[30px] std-font text-[#2C313F] leading-[50px] font-medium tracking-wide uppercase mb-4">
           Design and Branding Agency
