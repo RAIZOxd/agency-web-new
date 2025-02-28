@@ -64,7 +64,7 @@ export default function CreativeCarousel() {
               </div>
 
               {/* Neon Border */}
-              <div className="absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-yellow-400/60 transition-all duration-500 pointer-events-none" />
+              <div className="absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-blue-400 transition-all duration-500 pointer-events-none" />
             </div>
           </SwiperSlide>
         ))}
