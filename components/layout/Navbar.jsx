@@ -61,7 +61,7 @@ const Navbar = () => {
               isOpen ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 -translate-y-5 pointer-events-none"
             }`}
           >
-            <a href="#" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
+            <a href="/" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
               <FaHome className="text-base sm:text-lg" /> Home
             </a>
             <a href="/about" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
