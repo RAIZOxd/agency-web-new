@@ -64,19 +64,19 @@ const Navbar = () => {
             <a href="#" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
               <FaHome className="text-base sm:text-lg" /> Home
             </a>
-            <a href="#" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
+            <a href="/about" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
               <FaInfoCircle className="text-base sm:text-lg" /> About Us
             </a>
-            <a href="#" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
+            <a href="/contact" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
               <FaPhone className="text-base sm:text-lg" /> Contact Us
             </a>
-            <a href="#" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
+            <a href="/category" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
               <FaFolderOpen className="text-base sm:text-lg" /> Category
             </a>
-            <a href="#" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
+            <a href="/projects" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
               <FaRocket className="text-base sm:text-lg" /> Projects
             </a>
-            <a href="#" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
+            <a href="/blog" className="flex items-center gap-2 md:gap-3 text-[#2C313F] font-semibold text-sm sm:text-base md:text-lg hover:text-[#5AC4FF] transition-all duration-300">
               <FaBlog className="text-base sm:text-lg" /> Blog
             </a>
           </div>
