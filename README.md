@@ -7,7 +7,7 @@
 ✔️ CONTACT US\
 ✔️ CATEGORIES\
 ✔️ OUR PROJECTS\
-✔️ OUR BLOG\
+✔️ OUR BLOG
 
 
 ## License 📄
