@@ -2,8 +2,8 @@
 
 # Sections 📚
 
-✔️ Home\
-✔️ ABOUT US
+✔️ HOME\
+✔️ ABOUT US\
 ✔️ CONTACT US\
 ✔️ CATEGORIES\
 ✔️ OUR PROJECTS\
