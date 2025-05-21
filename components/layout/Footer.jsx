@@ -188,7 +188,7 @@ export default function Footer() {
         }}
       >
         <div className="gilroy-font text-center text-[#6A7176] text-sm sm:text-base font-medium mt-6 sm:mt-10 border-t border-white border-opacity-20 py-4 sm:py-6 px-4">
-          © Copyright 2022 Fifty©. All rights reserved.
+          © Copyright 2025 RAIZO_XD ©. All rights reserved.
         </div>
       </div>
     </footer>

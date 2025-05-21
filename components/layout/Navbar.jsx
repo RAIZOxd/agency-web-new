@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container mx-auto flex flex-wrap justify-between items-center border-b border-[#2C313F] pb-2 px-4 md:px-8 lg:px-6">
         {/* Left Section */}
         <p className="text-[16px] sm:text-[18px] md:text-[24px] leading-[20px] sm:leading-[24px] md:leading-[30px] font-[450] text-[#2C313F] tracking-[-0.02em] std-font">
-          &copy; 2022.
+          &copy; 2025.
         </p>
 
         {/* Center Section */}
